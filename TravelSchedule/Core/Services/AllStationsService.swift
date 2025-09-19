@@ -40,7 +40,6 @@ final class AllStationsService: AllStationsServiceProtocol {
             )
         )
         
-        
         let responseData = try response.ok.body.html
         
         let limit = 50 * 1024 * 1024
